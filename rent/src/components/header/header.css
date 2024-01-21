@@ -1,0 +1,49 @@
+.header{
+   display: flex; 
+   text-align: left;
+}
+
+.header_logo{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left:5%;
+}
+
+.header_logo_img{
+    height: 60px;
+    width: 105px;
+    border-radius: 10%;
+}
+
+.header_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight: bold;
+}
+.header_menu_item a{
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.1);
+}
+.header_menu_item a:hover{
+   color:rgba(255, 122, 0, 1); 
+}
+
+.header_menu, .header_phone{
+    margin: auto;
+}
+.header_call{
+    width: 30%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    background: rgba(43, 122, 241, 1);
+    list-style-type: none;
+}
+.header_phone a{
+    color: white;
+}
+
+
